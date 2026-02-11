@@ -67,7 +67,7 @@ doctype_js = {
 # Installation
 # ------------
 
-# before_install = "clearing.install.before_install"
+before_install = "clearing.install.before_install"
 after_install = [
     "clearing.patches.load_fixtures.execute",
     "clearing.patches.load_custom_fields.execute",
